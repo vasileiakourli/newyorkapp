@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="FIND TOP 10"
+        android:id="@+id/press"
+        android:layout_gravity="center_horizontal" />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SEE RESULTS ON MAP"
+        android:id="@+id/finalbutton"
+        android:layout_gravity="center_horizontal"
+        android:layout_alignTop="@+id/press"  />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/results"
+        android:text=" "
+        android:textAlignment="center"
+        android:scrollbars="vertical"
+        android:layout_gravity="center_horizontal"
+        android:layout_alignTop="@+id/finalbutton"/>
+
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/list"
+        android:layout_gravity="center_horizontal"
+        android:layout_alignTop="@+id/results"/>
+
+
+
+</LinearLayout>

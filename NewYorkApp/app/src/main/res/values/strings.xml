@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">New York Maps App</string>
+    <string name="title_activity_nymaps">New York Map</string>
+    <string name="title_coordinates">Input Coordinates</string>
+    <string name="title_activity_inputdates">Input Dates</string>
+    <string name="title_findbest"> Find best places</string>
+    <string name="title_loadimage">Load Image</string>
+</resources>
